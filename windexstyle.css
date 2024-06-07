@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+/* Common style rules */
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Josefin Sans",sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+}
+
+
+.navbar-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navbar-links ul {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.main-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+.submenu {
+    display: none;
+    overflow: hidden;
+}
+
+.submenu-two {
+    display: none;
+    
+}
+
+.submenu-three {
+    display: none;
+
+    
+}
+
+.navbar-icons:hover {
+    color: #ff2020;
+}
+
+
+
+.hot {
+    
+    width: 300px;
+}
+
+.hot2 {
+    
+    width: 300px;
+}
+
+.hot2:hover {
+    display: block;
+}
+
+
+
+.hide2 {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.row-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider-area {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.slider-active {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.single-slider {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.single-slider img {
+    
+}
+
+.body {
+    background-color: #74746a;
+}
+.hero__cap h1 {
+text-align: center;
+    color: rgb(3, 3, 55);
+    font-size: 100px;
+}
+
+.hero_btn {
+    background-color: #ff2020;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.hero_btn:hover {
+    background-color: #ff2020;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.hero__img {
+    animation-delay: 2s; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    
+
+}
+
+.row h2 {
+    font-size: 60px;
+    
+}
+
+.row span {
+    color: red;
+}
+
+.product-img:hover {
+    color: #ff2020;
+}
+
+.gallery-area {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 30px;
+
+}
+
+.section-title h3 {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title p {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+} 
+
+
+
+
+.img-cap {
+display: none;
+    
+    
+    
+}
+
+.img-cap:hover {
+    background-color: #ff2020;
+    color:#343a40;
+}
+
+
+.redborder{
+    
+    border: 2px solid red;
+}
+
+.redborder:hover {
+    display: block;
+   
+}
+
+.redborder:hover {
+    color: #ff2020;
+    border: 2px solid red;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0ms;
+    
+}
+
+
+
+.img-cap:hover {
+    background-color: #ff2020;
+    display: block;
+    
+}
+.img-cap:hover  {
+    background-color: #ff2020;
+    display: block;
+
+    
+}
+
+
+.popular-img:hover {
+    color: #ff2020;
+}
+
+.popular-img img {
+    display: grid;
+    grid-template-columns: repeat(3,1 fr 250px);
+}
+
+.popular-items {
+    display: grid;
+    grid-template-columns: repeat(3,1 fr 250px);
+    gap: 30px;
+}
+.redborder {
+    border: 1px solid red;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+    
+}
+
+.room-btn {
+    background-color: #ff2020;
+    border: 1px solid 0;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-left:500px;
+    text-decoration: none;
+    border-radius: 2px;
+
+}
+
+.room-btn:hover {
+    background-color: #dc3545;
+    color: darkgray;
+
+}
+
+
+
+.video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: ;
+}
+
+.watch-details h3 {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.watch-details a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 1px soild 0;
+    border-radius: 2px;
+    background-color: #dc3545;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.watch-details a:hover {
+    background-color: #ff2020;
+    color:#343a40;
+}
+
+.method-wrapper {
+    border: 3px solid red;
+    padding: 50px;
+    margin: 50px auto;
+    background-color: red;
+
+
+}
+.method-wrapper p {
+    color: white;
+}
+.single-method h5 {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-title h5 {
+    font-size: larger;
+}
+
+.newp {
+    font-size: larger;
+}
+
+.newpp{
+    font-size: larger;
+}
+
+.newpp li {
+    font-size: large;
+    color: #000;
+}
+
+.myImg-one {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg-one:hover { opacity: 0.7;}
+
+.myImg-two {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.myImg-two:hover { opacity: 0.7;}
+
+.myImg-three {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg-three:hover {
+    opacity: 0.7;
+}
